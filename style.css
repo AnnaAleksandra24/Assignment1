@@ -1,0 +1,101 @@
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.row{
+    padding: 32px 0;
+    display: flex;
+}
+.col{
+    padding: 0 16px;
+}
+.col-12{
+    width: 100%;
+}
+.col-11{
+    width: 91.6666666667%;
+}
+.col-10{
+    width: 83.3333333333%;
+}
+.col-9{
+    width: 75%;
+}
+.col-8{
+    width: 66.6666666667%;
+}
+.col-7{
+    width: 58.3333333333%;
+}
+.col-6{
+    width: 50%;
+}
+.col-5{
+    width: 41.6666666667%;
+}
+.col-4{
+    width: 33.3333333333%;
+}
+.col-3{
+    width: 25%;
+}
+.col-2{
+    width: 16.6666666667%;
+}
+.col-1{
+    width: 8.3333333333%;
+}
+.logo-link{
+    display: block;
+    width: 120px;
+}
+#banner{
+    background-image: url(./assets/london-bg.png);
+    background-size: cover;
+    padding: 120px 0;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 9em;
+    width: 100%;
+}
+#menu-top{
+    display: flex;
+    justify-content: space-between;
+}
+#menu-top li{
+    padding: 16px;
+    cursor: pointer;
+}
+#menu-top li:hover{
+    background-color: #f2f2f2;
+}
+.firm{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 1.5em;
+    text-align: left;
+    padding-bottom: 16px;
+}
+#highlights{
+    background-color: #22394f;
+    color: white;
+}
+.circle-list{
+    list-style: circle inside;
+}
+.circle-list li{
+    padding: 4px 0;
+}
+footer{
+    background-color: #d9d9d9;
+}
